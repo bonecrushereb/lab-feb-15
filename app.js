@@ -31,9 +31,18 @@ function sumArray(numbArray){
   var totalSumArray = 0;
   for(var i = 0; i < numbArray.length; i++){
     totalSumArray = numbArray[i] + totalSumArray;
-    totalSumArray +=numArray[i];
   }
   console.table(numbArray);
   console.log(numbArray + ' was passed in as an array of numbers, and ' + totalSumArray + ' is their sum.' );
   return totalSumArray;
+}
+
+function multiplyArray(multiArray){
+  var totalmultiArray = 1;
+  for(var i = 0; i < multiArray.length; i++){
+    totalmultiArray = multiArray[i] * totalmultiArray;
+    console.log(i);
+  }
+  console.table(multiArray);
+  console.log('The numbers' + multiArray + ' have a product of ' +totalmultiArray + '.')
 }
