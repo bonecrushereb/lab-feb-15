@@ -26,3 +26,14 @@ function sumAndMultiply(num1, num2, num3){
 
 
 }
+
+function sumArray(numbArray){
+  var totalSumArray = 0;
+  for(var i = 0; i < numbArray.length; i++){
+    totalSumArray = numbArray[i] + totalSumArray;
+    totalSumArray +=numArray[i];
+  }
+  console.table(numbArray);
+  console.log(numbArray + ' was passed in as an array of numbers, and ' + totalSumArray + ' is their sum.' );
+  return totalSumArray;
+}
