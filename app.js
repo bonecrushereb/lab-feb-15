@@ -2,7 +2,7 @@ var ptag1 = document.getElementById('answer1');
 function sum(sum1, sum2){
   var sum = sum1 + sum2;
   //console.log('The sum of ' + sum1 + ' + ' + sum2 + ' = ' + sum + '.');
-  ptag1.textContent = 'The sum of ' + sum1 + ' + ' + sum2 + ' = ' + sum + '.';
+  ptag1.textContent = 'The sum of ' + sum1 + ' and ' + sum2 + ' is ' + sum + '.';
   return sum;
 }
 
